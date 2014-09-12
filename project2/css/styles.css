@@ -1,0 +1,60 @@
+/* 
+Vanesa Dávila-Luciano
+Project 2
+*/
+
+body {
+	color: #333436;
+    font-family: Arial, Verdana, sans-serif;
+	background-color: #FFFFFF;
+    font-size: 16px;
+    text-align: left;}
+h1 {
+	color: #FFFFFF;
+    font-family: 'Tangerine', serif;
+    font-size: 58px;
+    text-align: center;
+    background-color: #2BB29D;
+    padding: 20px;
+    opacity: 0.15);
+    text-shadow: -1px -1px #666666;}
+h2, h3, h4 {
+    color: #333436;
+    font-size: 20px;
+    background-color: #F4B49D;
+    padding: 10px;
+    opacity: 0.15);
+    text-align: center;}
+p   { 
+    line-height: 1.5em;}
+
+/* Local links styling*/
+a:link { 
+    color: deeppink; 
+    text-decoration: none;}
+a:visited { 
+    color: darkcyan;}
+a:hover { 
+    color: deeppink; 
+    text-decoration: underline;}
+a:active { 
+    color: darkcyan;}
+
+/* Division to present numbered list*/
+div { 
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #7ED0F5;
+    opacity: ;
+    padding: 10px;
+    margin: 20px;
+    -moz-box-shadow: 5px 5px 5px #777777; 
+    -webkit-box-shadow: 5px 5px 5px #777777; 
+    box-shadow: 5px 5px 5px #777777;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;}
+
+ol  { 
+    list-style-type: decimal;}
