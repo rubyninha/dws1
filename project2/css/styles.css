@@ -3,12 +3,15 @@ Vanesa Dávila-Luciano
 Project 2
 */
 
+/* Stylings for the main body content */
 body {
 	color: #333436;
     font-family: Arial, Verdana, sans-serif;
 	background-color: #FFFFFF;
     font-size: 16px;
     text-align: left;}
+
+/* Main and subheaders */
 h1 {
 	color: #FFFFFF;
     font-family: 'Tangerine', serif;
@@ -27,6 +30,7 @@ h2, h3, h4 {
     opacity: 0.15);
     text-align: center;}
 
+/* Paragraph settings */
 p   { 
     line-height: 1.5em;}
 
