@@ -9,4 +9,12 @@ body {
 	background-color: #FFFFFF;
     font-size: 16px;
     text-align: left;}
-
+h1 {
+	color: #FFFFFF;
+    font-family: 'Tangerine', serif;
+    font-size: 58px;
+    text-align: center;
+    background-color: #2BB29D;
+    padding: 20px;
+    opacity: 0.15);
+    text-shadow: -1px -1px #666666;}
