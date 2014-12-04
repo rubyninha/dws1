@@ -18,3 +18,11 @@ h1 {
     padding: 20px;
     opacity: 0.15);
     text-shadow: -1px -1px #666666;}
+
+h2, h3, h4 {
+    color: #333436;
+    font-size: 20px;
+    background-color: #F4B49D;
+    padding: 10px;
+    opacity: 0.15);
+    text-align: center;}
