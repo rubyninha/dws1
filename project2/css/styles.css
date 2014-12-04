@@ -30,3 +30,15 @@ h2, h3, h4 {
 p   { 
     line-height: 1.5em;}
 
+/* Local links styling*/
+a:link { 
+    color: deeppink; 
+    text-decoration: none;}
+a:visited { 
+    color: darkcyan;}
+a:hover { 
+    color: deeppink; 
+    text-decoration: underline;}
+a:active { 
+    color: darkcyan;}
+
