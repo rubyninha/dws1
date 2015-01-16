@@ -53,3 +53,21 @@ a:hover {
     text-decoration: underline;}
 a:active { 
     color: darkcyan;}
+
+/* Division to present numbered list*/
+div { 
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: #7ED0F5;
+    padding: 10px;
+    margin: 20px;
+    -moz-box-shadow: 5px 5px 5px #777; 
+    -webkit-box-shadow: 5px 5px 5px #777; 
+    box-shadow: 5px 5px 5px #777;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;}
+
+ol  { 
+    list-style-type: decimal;}
