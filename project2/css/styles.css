@@ -10,3 +10,31 @@ body {
 	background-color: #FFFFFF;
     font-size: 16px;
     text-align: left;}
+
+/* Main and subheaders */
+
+@font-face {
+  font-family: 'Tangerine';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Tangerine'), url(http://fonts.gstatic.com/s/tangerine/v6/HGfsyCL5WASpHOFnouG-RCZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+
+h1 {
+	color: #FFFFFF;
+    font-family: 'Tangerine', serif;
+    font-size: 58px;
+    text-align: center;
+    background-color: #2BB29D;
+    padding: 20px;
+    opacity: 0.15;
+    text-shadow: -1px -1px #666;}
+
+h2, h3, h4 {
+    color: #333436;
+    font-size: 20px;
+    background-color: #F4B49D;
+    padding: 10px;
+    opacity: 0.15;
+    text-align: center;}
+
