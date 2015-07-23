@@ -1,0 +1,191 @@
+/* 
+Vanesa Dávila-Luciano
+Project 2
+*/
+
+
+/* Stylings for the body and wrapper */
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body {
+	color: #666;
+	background: #2f2828 center;
+	font-family: Georgia, Times, serif;
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+.wrapper {
+	width: 940px;
+	margin: 10px auto;
+	border: 2px solid #000;
+	background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* Main header and subheaders */
+
+
+header {
+    height: 155px;
+    background-image: url("images/header.jpg");
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: normal;
+    font-style: italic;
+    color: #df2c2c;
+    width: 940px;
+	height: 70px;
+    margin: 20px 0px 5px 0px;
+	padding: 7px 0px 0px 20px;
+}
+
+h1, h2, h3  {
+    font-family: 'Lato', serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #df2c2c;
+    margin: 10px 0px 5px 0px;
+	padding: 7px 0px 0px 20px;
+}
+
+h3 {
+    margin: 7px 0px 0px 20px;
+	color: #df2c2c;
+    opacity: 0.5;
+}
+
+
+/* Navigation styles */
+
+nav, footer {
+    clear: both;
+	color: #fff;
+	background-color: #2f2828;
+	height: 30px;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+	margin-right: 40px;
+}
+
+nav li a {
+    color: #fff;
+}
+
+nav li a:hover {
+	color: #d4d3d3;
+}
+
+section.history {
+    float: left;
+	width: 659px;
+	border-right: 1px solid #eee;
+    padding-top: 10px;
+}
+
+article {
+    float: left;
+    width: 625px;
+    padding: 0px 10px 0px;}
+
+/* Images */
+
+figure {
+    float: left;
+	width: 290px;
+	height: 240px;
+    padding: 10px;
+	margin: 20px;
+	border: 1px solid #d4d3d3;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #777;
+}
+
+figcaption {
+    font-size: 90%;
+	text-align: center;
+}
+
+/* Paragraph and list settings */
+p   { 
+    line-height: 1.5em;
+    padding: 7px 0px 0px 20px;
+}
+
+ol  { 
+    list-style-type: decimal;    
+    padding: 0px 0px 0px 375px;
+}
+
+li  { 
+    padding: 7px 0px 0px 0px;
+}
+
+/* Links */
+
+a:link {
+    color: #df2c2c;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2f2828;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2f2828;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Aside settings */
+
+aside {
+    width: 230px;
+	float: left;
+	padding: 30px 0px 0px 20px;
+}
+
+aside a {
+	display: block;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+    color: #efefef;
+}
+
+aside a:hover {
+    color: #2f2828;
+	background-color: #efefef;
+}
+
+
+/* Footer */
+footer {
+	font-size: 80%;
+    text-align: center;
+	padding: 0px 0px 0px 10px;
+    background-color: #fff;
+    color: #2f2828;
+}
+		
