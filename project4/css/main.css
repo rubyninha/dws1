@@ -215,6 +215,9 @@ footer {
 }
 
 /* Form Styles */
+form {
+    display: block;
+}
 
 #newsletter h2 {
     padding-top: 40px;
@@ -228,7 +231,7 @@ legend {
 }
 
 fieldset {
-    border: 1px solid #fff;
+    border: #fff;
 }
 
 input#name {
@@ -249,32 +252,10 @@ input:focus, input:hover {
     margin-right: 20px;
 }
 
-type[checkbox]
-
-/*input:focus {
-    border: 1px dotted #dcdcdc;
-    outline: none;
-}
-
-input#submit {
-	color: #fff;
-    background-color: #654;
-	border: none;
-	border-radius: 5px;
-}
-			
-input#submit:hover {
-    color: #665544;
-	background-color: #efefef;
-}
-
-div#submit input:hover {
-    background: #0C3;
-    cursor: pointer;
-}*/
-
 div#submit {
-    width: 310px;
+    float: left;
+    width: 210px;
+    clear: left;
     text-align: right;
 }
 
