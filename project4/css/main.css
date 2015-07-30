@@ -273,7 +273,51 @@ div#submit input:hover {
     cursor: pointer;
 }
 
-#compositions #artists {
-    margin-left: 200px; 
+/* Tabe Styles */
+
+table {
+    width: auto;
+    padding-left: 20px;
+    font-size: 85%;
+    border-spacing: 3px;
 }
-		
+
+th, td {
+    padding: 7px 10px 10px 20px;
+}
+
+th {
+    text-transform: uppercase;
+    font-family: 'Lato', serif;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+	border-bottom: 2px solid #111111;
+	border-top: 1px solid #999;
+	text-align: left;
+}
+
+tr.even {
+    background-color: #efefef;
+}
+
+.famous-songs {
+    text-align: center;
+}
+
+tr:hover {
+    color: #2f2828;
+    background-color: #89c9e6;
+}
+
+.song {
+    font-weight: bold;
+}
+
+.english-title {
+    width: 25%;
+    font-style: italic;
+}
+
+.fact {
+    width: 30%;
+}
