@@ -1,0 +1,298 @@
+/* 
+Vanesa Dávila-Luciano
+Project 4
+*/
+
+
+/* Stylings for the body and wrapper */
+
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+body {
+	color: #666;
+/* Repeationg Background Image */
+	background: url("../images/background-image.gif") repeat top;
+	font-family: Georgia, Times, serif;
+/* Convert font sizes to "em" values */
+	line-height: 1.4em;
+	margin: 0px;
+}
+
+.wrapper {
+/* Convert to liquid layout - change width and margin values to percentages */
+	width: 80%;
+	margin: 1% auto;
+	border: 2px solid #000;
+	background-color: #fff;
+    border-radius: 10px;
+}
+
+
+/* Main header and subheaders Styles*/
+
+
+header {
+    height: 155px;
+}
+
+h1 {
+    font-size: 3.125em;
+    font-weight: normal;
+    font-style: italic;
+    color: #89c9e6;
+    width: 90%;
+	height: 70px;
+    margin: 2.1% 0 0.5% 0;
+	padding: 7px 0px 0px 20px;
+}
+
+h1, h2, h3  {
+    font-family: 'Lato', serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: #df2c2c;
+    margin: 1% 0 0.5% 0;
+	padding: 7px 0px 0px 20px;
+}
+
+h3 {
+    margin: 0.7% 0 0 3%;
+	color: #df2c2c;
+    opacity: 0.5;
+}
+
+
+/* Navigation styles */
+
+nav, footer {
+    clear: both;
+	color: #fff;
+	background-color: #2f2828;
+	height: 30px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline;
+	margin-right: 4.2%;
+}
+
+nav li a:link {
+    color: #fff;
+}
+
+nav li a:hover {
+	color: #d4d3d3;
+}
+
+/* Multi-column Layout with Floats */
+section.history {
+    float: left;
+	width: 75%;
+	border-right: 1px solid #eee;
+    padding-top: 10px;
+}
+
+article {
+    float: left;
+    width: 90%;
+    padding: 0px 10px 0px;}
+
+
+/* Images Styles */
+
+figure {
+    float: left;
+	width: 50%;
+	height: 290px;
+    padding: 10px;
+	margin: 2.1%;
+	border: 1px solid #d4d3d3;
+    border-radius: 3px;
+    box-shadow: 0 0 10px #777;
+}
+
+figure img {
+    float: left;
+    width: 99%;
+}
+
+figcaption {
+    font-size: 90%;
+	text-align: center;
+}
+
+/* Paragraph and list Styles */
+p   { 
+    line-height: 1.5em;
+    padding: 7px 0px 0px 20px;
+}
+
+ol  { 
+    list-style-type: decimal;    
+    padding: 0px 0px 0px 475px;
+}
+
+li  { 
+    padding: 7px 0px 0px 0px;
+}
+
+/* Links */
+
+a:link {
+    color: #df2c2c;
+	text-decoration: none;
+}
+
+a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2f2828;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2f2828;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Aside Styles */
+
+aside {
+    width: 20%;
+	float: left;
+	padding: 30px 0px 0px 20px;
+    /* Gradient Background */
+}
+
+#known-artists {
+    margin-bottom: 50px;
+    background: -moz-linear-gradient(top,  rgba(233,233,233,0) 38%, rgba(233,233,233,0) 40%, rgba(239,235,235,0.65) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(38%,rgba(233,233,233,0)), color-stop(40%,rgba(233,233,233,0)), color-stop(100%,rgba(239,235,235,0.65))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(233,233,233,0) 38%,rgba(233,233,233,0) 40%,rgba(239,235,235,0.65) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(233,233,233,0) 38%,rgba(233,233,233,0) 40%,rgba(239,235,235,0.65) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(233,233,233,0) 38%,rgba(233,233,233,0) 40%,rgba(239,235,235,0.65) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(233,233,233,0) 38%,rgba(233,233,233,0) 40%,rgba(239,235,235,0.65) 100%); /* W3C */
+}
+
+/* Aside Style */
+
+aside a {
+	display: block;
+	padding: 5px 0 8px 25px;
+    margin-left: 5%;
+	border-bottom: 1px solid #eee;
+    color: #efefef;
+/* Non-repeationg Background Image */
+    background: url("../images/icon.png") no-repeat left;
+}
+
+aside a:hover {
+    color: #2f2828;
+	background-color: #efefef;
+}
+
+
+/* Footer Styles */
+footer {
+	font-size: 80%;
+    text-align: center;
+	padding: 0px 0px 15px 10px;
+    background-color: #fff;
+    color: #2f2828;
+}
+
+/* Form Styles */
+
+#newsletter h2 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+legend {
+    padding: 0 10px;
+    text-align: left;
+    font-style: italic;
+}
+
+fieldset {
+    border: 1px solid #fff;
+}
+
+input#name {
+    margin-bottom: 15px;
+}
+
+input:focus, input:hover {
+    color: #fff;
+    background-color: #df2c2c;
+    opacity: 0.7;
+}
+
+.title {
+    float: left;
+    width: 100px;
+    clear: left;
+    text-align: right;
+    margin-right: 20px;
+}
+
+type[checkbox]
+
+/*input:focus {
+    border: 1px dotted #dcdcdc;
+    outline: none;
+}
+
+input#submit {
+	color: #fff;
+    background-color: #654;
+	border: none;
+	border-radius: 5px;
+}
+			
+input#submit:hover {
+    color: #665544;
+	background-color: #efefef;
+}
+
+div#submit input:hover {
+    background: #0C3;
+    cursor: pointer;
+}*/
+
+div#submit {
+    width: 310px;
+    text-align: right;
+}
+
+#submit input {
+    border: 1px solid #2f2828;
+    background: #2f2828;
+    color: #fff;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+div#submit input:hover {
+    background: #df2c2c;
+    cursor: pointer;
+}
+
+#compositions #artists {
+    margin-left: 200px; 
+}
+		
